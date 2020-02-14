@@ -28,7 +28,9 @@ You must download the following from [Axway Support](https://support.axway.com).
 * API Gateway Linux installer
 * [APIGateway_7.6.2-8_ScriptsPackageDocker_linux-x86-64_BN27072018.tar.gz](https://support.axway.com/en/downloads/download-details/id/1439671) Docker scripts package.
 
-{{< alert title="Note" color="primary" >}}The scripts in this package applies to any version of API Gateway from 7.6.2 onward.{{< /alert >}}
+{{< alert title="Note" color="primary" >}}The scripts in this package applies to any version of API Gateway from 7.6.2 onward.
+
+My new sentence{{< /alert >}}
 
 #### API Gateway licenses
 
@@ -103,8 +105,7 @@ If you are using any external data stores, such as Apache Cassandra for API Mana
 
 ### Start Apache Cassandra
 
-Deploying a Cassandra container is only recommended for development environments. In a production environment, you must configure Cassandra for high availability (HA) as detailed in
-[Configure a Cassandra HA cluster](/docs/cass_admin/cassandra_config/).
+Deploying a Cassandra container is only recommended for development environments. In a production environment, you must configure Cassandra for high availability (HA) as detailed in [Configure a Cassandra HA cluster](/docs/cass_admin/cassandra_config/).
 
 For details on starting Apache Cassandra in a Docker container, see [Docker](https://hub.docker.com/_/cassandra) documentation.
 
